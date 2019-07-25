@@ -1,8 +1,18 @@
-# House Prices: Advanced Regression Techniques
-## [ https://www.kaggle.com/c/house-prices-advanced-regression-techniques/leaderboard ].
+/*
 
-In this project we signed up for the Kaggle competition. The aim was to complete the competition and submit the code for rank. Then improve the code for better analysis to improve the rank. The competition we entered was “House Prices: Advanced Regression Techniques”. The competition details can be found on site: https://www.kaggle.com/c/house-prices-advanced-regression-techniques. We implemented different advanced regression algorithms and compared the results for best prediction.
+    Author :: Siddharth Jain
+    Date :: 25-07-2019
 
-Following are the details for the project implementations: Dataset: Provided by Kaggle and in known as Ames Housing Dataset Data Mining Tool: Python scikit library. Analysis & Prediction: Prediction of the sale price of the houses Algorithms: The following algorithms were implemented in the project: Advanced Regression Techniques like LASSO, XgBoost, PCA etc.
+*/
 
-The system requirement for Python SKLearn have no any minimal specification. Since data analysis is a computationally intensive task—the better your hardware, the better your experience. Also, the memory should be enough to handle big data sets.
+# Housing-Prices-EDA-and-Regression-Models
+
+The famous Housing Price Advanced Regression competition on Kaggle.
+
+The dataset contains of training and testing sets each with about 1.46K rows and 81 features pertaining to a house The task is to predict the SalePrice for each house in the test set.
+
+I have first performed an exhaustive EDA to identify the underlying trends in the data. I have also removed outliers to make the regression models more robust. Also proper missing values treatment has been done with imputation being done wherever needed.
+
+Lastly I have deployed various regression models like Lasso,Ridge etc... from scikit and have also tuned their parameters from the GridSearchCV module.
+
+Finally achieved a RMSE of  little more than 0.12 which is pretty decent.
